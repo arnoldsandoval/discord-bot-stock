@@ -10,5 +10,8 @@ WORKDIR /discord-bot-stock
 # Install all the dependencies
 RUN npm install
 
+# Expose port
+EXPOSE 3000
+
 # Run the application
 CMD ["npm", "start"]
